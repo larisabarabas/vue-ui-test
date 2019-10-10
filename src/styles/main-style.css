@@ -1,0 +1,12 @@
+:root {
+    --primary-color: goldenrod;
+    --secondary-color: antiquewhite;
+    --text-color: #585858;
+    --main-background-color:whitesmoke;
+}
+
+
+body {
+    background-color: var(--main-background-color);
+    color: var(--text-color)
+}

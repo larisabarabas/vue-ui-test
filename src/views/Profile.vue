@@ -1,7 +1,7 @@
 <template>
     <div>
         <h1>This is Profile page</h1>
-        <NewComponent msg="Rendering newComponent"/>
+        <NewComponent msg="Lalalalala"></NewComponent>
     </div>
 </template>
 
