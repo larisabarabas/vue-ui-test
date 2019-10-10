@@ -1,6 +1,7 @@
 <template>
     <div class="text-container">
-        <h3>{{ msg }}</h3>
+        <h3 v-bind:id="id">{{ msg }}</h3>
+        <a v-bind:href="url">Take me to {{ linkName}}</a>
     </div>
 </template>
 
@@ -8,7 +9,10 @@
 export default {
     name:"NewComponent",
     props:{
-        msg:String
+        msg:String,
+        id:String,
+        url:String,
+        linkName:String
     }
 }
 </script>
@@ -17,6 +21,7 @@ export default {
     .text-container{
         padding:20px;
         border: 1px solid goldenrod;
-        background-color: antiquewhite
+        background-color: antiquewhite;
+        margin-top:20px;
     }
 </style>
