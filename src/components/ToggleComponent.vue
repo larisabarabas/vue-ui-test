@@ -1,10 +1,3 @@
-<template>
-    <div>
-        <button @click="toggle">Click me</button>
-        <p id="text" v-show="isShown">Lorem ipsum dolor sit amet,...</p>
-    </div>
-</template>
-
 <script>
 export default {
     data() {
@@ -20,7 +13,19 @@ export default {
 }
 </script>
 
-<style>
+<template>
+    <div>
+        <button @click="toggle">Click me</button>
+        <p 
+        id="text" 
+        v-show="isShown">
+        Lorem ipsum dolor sit amet,...
+        </p>
+    </div>
+</template>
+
+
+<style scoped>
     button{
         background-color: bisque;
         padding: 10px;

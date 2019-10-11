@@ -1,10 +1,3 @@
-<template>
-    <div class="text-container">
-        <h3 v-bind:id="id">{{ msg }}</h3>
-        <a v-bind:href="url">Take me to {{ linkName}}</a>
-    </div>
-</template>
-
 <script>
 export default {
     name:"NewComponent",
@@ -16,6 +9,14 @@ export default {
     }
 }
 </script>
+
+<template>
+    <div class="text-container">
+        <h3 v-bind:id="id">{{ msg }}</h3>
+        <a v-bind:href="url">Take me to {{ linkName}}</a>
+    </div>
+</template>
+
 
 <style scoped>
     .text-container{

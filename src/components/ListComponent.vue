@@ -1,14 +1,3 @@
-<template>
-<div>
-    <h2>This is a list</h2>
-    <ul>
-        <li v-for="product in products">
-            {{product.name}}
-            <b>{{product.provider}}</b>
-        </li>
-    </ul>
-</div>
-</template>
 
 <script>
     export default {
@@ -22,6 +11,19 @@
         },
     }
 </script>
+
+<template>
+<div>
+    <h2>This is a list</h2>
+    <ul>
+        <li 
+            v-for="product in products" :key="product.id">
+                {{product.name}}
+                <b>{{product.provider}}</b>
+        </li>
+    </ul>
+</div>
+</template>
 
 <style scoped>
 h2{
