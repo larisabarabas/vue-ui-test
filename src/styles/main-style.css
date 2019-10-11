@@ -2,11 +2,21 @@
     --primary-color: goldenrod;
     --secondary-color: antiquewhite;
     --text-color: #585858;
-    --main-background-color:whitesmoke;
+    --main-background-color:white;
 }
 
 
 body {
     background-color: var(--main-background-color);
     color: var(--text-color)
+}
+
+/* Margins and Padding */
+
+.mrg-top-100{
+    margin-top:100px;
+}
+
+.mrg-top-50{
+    margin-top:50px;
 }
