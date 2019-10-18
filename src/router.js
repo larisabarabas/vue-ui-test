@@ -7,6 +7,7 @@ import LoginPage from './views/LoginPage.vue'
 
 Vue.use(Router)
 
+
 export default new Router({
   routes: [
     {
@@ -25,12 +26,14 @@ export default new Router({
     {
       path:'/profile',
       name:'profile',
-      component: Profile
-    },
-    {
-      path:'/my-page',
-      name:'my-page',
-      component: MyPage
+      component: Profile,
+      children:[
+        {
+          path:'/my-page',
+          name:'my-page',
+          component: MyPage
+        },
+      ]
     },
     {
       path:'/login',

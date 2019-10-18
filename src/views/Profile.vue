@@ -1,6 +1,7 @@
 <template>
     <div>
         <h1>This is Profile page</h1>
+        <router-link to="/profile/my-page">MyPage </router-link>
         <NewComponent msg="Lalalalala" id=1 url="https://www.netlify.com" linkName="Netlify"></NewComponent>
         <NewComponent msg="Lalalalala" id=2 url="https://www.google.com" linkName="Google"></NewComponent>
         <ToggleComponent/>  
