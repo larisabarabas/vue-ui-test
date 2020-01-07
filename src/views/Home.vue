@@ -246,6 +246,12 @@ export default {
   components: {
       Hooper,
       Slide
+  },
+  methods:{
+    slideTo(i){
+      console.log(i)
+      return hooper.slideTo(i)
+    }
   }
 }
 </script>

@@ -23,19 +23,18 @@ body {
 
 
 li.hooper-slide.is-active.is-current p{
-    background-color: lightcyan;
     padding: 0px 50px;
+    font-weight: 600;
 }
 
 li.hooper-slide{
     height: 100%;
 }
 
-/* li.hooper-slide.is-active{
-    display: grid;
-    justify-content: center;
-    align-content: center;
-} */
+li.hooper-slide.is-active p{
+    font-weight: 400;
+}
+
 .hooper{
     height:100%;
     border: 1px solid #efecec;
