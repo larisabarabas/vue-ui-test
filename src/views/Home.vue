@@ -258,7 +258,6 @@ export default {
 
 <style>
   .month{
-    font-weight: 700;
     font-size: 1rem;
   }
   .margin-100{
