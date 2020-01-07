@@ -24,8 +24,7 @@ body {
 
 li.hooper-slide.is-active.is-current p{
     background-color: lightcyan;
-    border-radius: 25px;
-    padding: 10px 50px;
+    padding: 0px 50px;
 }
 
 /* li.hooper-slide.is-active{
