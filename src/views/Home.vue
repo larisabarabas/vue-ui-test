@@ -1,140 +1,8 @@
 <template>
-  <div class="home">
+  <div class="home">    
     <div class="margin-100">
-      <h2>Testing the <b>horizontal</b> timeline</h2>
-        <hooper :itemsToShow="5" :infiniteScroll="true" group="group1">
-          <slide>
-            <p class="month" @click="slideTo(index)">JAN</p>
-          </slide>
-          <slide>
-            <p class="month">FEB</p>
-          </slide>
-          <slide>
-            <p class="month">MAR</p>
-          </slide>
-          <slide>
-            <p class="month">APR</p>
-          </slide>
-          <slide>
-            <p class="month">MAY</p>
-          </slide>
-          <slide>
-            <p class="month">JUN</p>
-          </slide>
-          <slide>
-            <p class="month">JUL</p>
-          </slide>
-          <slide>
-            <p class="month">AUG</p>
-          </slide>
-          <slide>
-            <p class="month">SEP</p>
-          </slide>
-          <slide>
-            <p class="month">OCT</p>
-          </slide>
-          <slide>
-            <p class="month">NOV</p>
-          </slide>
-          <slide>
-            <p class="month">DEC</p>
-          </slide>
-        </hooper>
-        <hooper :itemsToShow="1" :infiniteScroll="true" group="group1">
-          <slide>
-            <div class="columns is-multiline">
-              <div class="column card">card </div>
-              <div class="column card">card </div>
-              <div class="column card">card </div>
-              <div class="column card">card </div>
-              <div class="column card">card </div>
-              <div class="column card">card </div>
-            </div>
-          </slide>
-          <slide>
-            <div class="columns is-multiline">
-              <div class="column card">card </div>
-              <div class="column card">card </div>
-              <div class="column card">card </div>
-            </div>
-          </slide>
-          <slide>
-            <div class="columns is-multiline">
-              <div class="column card">card </div>
-              <div class="column card">card </div>
-              <div class="column card">card </div>
-            </div>
-          </slide>
-          <slide>
-            <div class="columns is-multiline">
-              <div class="column card">card </div>
-              <div class="column card">card </div>
-              <div class="column card">card </div>
-            </div>
-          </slide>
-          <slide>
-            <div class="columns is-multiline">
-              <div class="column card">card </div>
-              <div class="column card">card </div>
-              <div class="column card">card </div>
-            </div>
-          </slide>
-          <slide>
-           <div class="columns is-multiline">
-              <div class="column card">card </div>
-              <div class="column card">card </div>
-              <div class="column card">card </div>
-            </div>
-          </slide>
-          <slide>
-           <div class="columns is-multiline">
-              <div class="column card">card </div>
-              <div class="column card">card </div>
-              <div class="column card">card </div>
-            </div>
-          </slide>
-          <slide>
-           <div class="columns is-multiline">
-              <div class="column card">card </div>
-              <div class="column card">card </div>
-            </div>
-          </slide>
-          <slide>
-           <div class="columns is-multiline">
-              <div class="column card">card </div>
-              <div class="column card">card </div>
-              <div class="column card">card </div>
-            </div>
-          </slide>
-          <slide>
-           <div class="columns is-multiline">
-              <div class="column card">card </div>
-              <div class="column card">card </div>
-            </div>
-          </slide>
-          <slide>
-            <div class="columns is-multiline">
-              <div class="column card">card </div>
-              <div class="column card">card </div>
-              <div class="column card">card </div>
-              <div class="column card">card </div>
-            </div>
-          </slide>
-          <slide>
-            <div class="columns is-multiline">
-              <div class="column card">card </div>
-              <div class="column card">card </div>
-              <div class="column card">card </div>
-              <div class="column card">card </div>
-              <div class="column card">card </div>
-            </div>
-          </slide>
-        </hooper>
-    </div>
-    
-    <div class="margin-100">
-      <h2>Testing the <b>verical</b> timeline</h2>
-        <hooper :itemsToShow="2" :vertical="true" style="height: 700px">
+      <h2>Testing the <b>vertical</b> timeline</h2>
+        <hooper :itemsToShow="2" :vertical="true" style="height: 700px" :infiniteScroll="false">
           <slide>
             <p class="month">JAN</p>
             <div class="columns is-multiline">
@@ -259,6 +127,8 @@ export default {
 <style>
   .month{
     font-size: 1rem;
+    text-align:left;
+    padding: 0px 25px;
   }
   .margin-100{
     margin: 100px 0px;
