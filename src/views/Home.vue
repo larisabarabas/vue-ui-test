@@ -163,30 +163,74 @@
           </slide>
           <slide>
             <p class="month">APR</p>
+            <div class="columns is-multiline">
+                <div class="column card">card </div>
+                <div class="column card">card </div>
+                <div class="column card">card </div>
+            </div>
           </slide>
           <slide>
             <p class="month">MAY</p>
+              <div class="columns is-multiline">
+                <div class="column card">card </div>
+                <div class="column card">card </div>
+                <div class="column card">card </div>
+            </div>
           </slide>
           <slide>
             <p class="month">JUN</p>
+              <div class="columns is-multiline">
+                <div class="column card">card </div>
+                <div class="column card">card </div>
+                <div class="column card">card </div>
+            </div>
           </slide>
           <slide>
             <p class="month">JUL</p>
+            <div class="columns is-multiline">
+                <div class="column card">card </div>
+                <div class="column card">card </div>
+                <div class="column card">card </div>
+            </div>
           </slide>
           <slide>
             <p class="month">AUG</p>
+            <div class="columns is-multiline">
+                <div class="column card">card </div>
+                <div class="column card">card </div>
+            </div>
           </slide>
           <slide>
             <p class="month">SEP</p>
+            <div class="columns is-multiline">
+                <div class="column card">card </div>
+                <div class="column card">card </div>
+                <div class="column card">card </div>
+            </div>
           </slide>
           <slide>
             <p class="month">OCT</p>
+            <div class="columns is-multiline">
+                <div class="column card">card </div>
+                <div class="column card">card </div>
+                <div class="column card">card </div>
+            </div>
           </slide>
           <slide>
             <p class="month">NOV</p>
+            <div class="columns is-multiline">
+                <div class="column card">card </div>
+                <div class="column card">card </div>
+                <div class="column card">card </div>
+            </div>
           </slide>
           <slide>
             <p class="month">DEC</p>
+            <div class="columns is-multiline">
+                <div class="column card">card </div>
+                <div class="column card">card </div>
+                <div class="column card">card </div>
+            </div>
           </slide>
         </hooper>
     </div>
