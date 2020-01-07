@@ -4,7 +4,7 @@
       <h2>Testing the <b>horizontal</b> timeline</h2>
         <hooper :itemsToShow="5" :infiniteScroll="true" group="group1">
           <slide>
-            <p class="month">JAN</p>
+            <p class="month" @click="slideTo(index)">JAN</p>
           </slide>
           <slide>
             <p class="month">FEB</p>
@@ -134,7 +134,7 @@
     
     <div class="margin-100">
       <h2>Testing the <b>verical</b> timeline</h2>
-        <hooper :itemsToShow="1.5" :vertical="true" style="height: 700px">
+        <hooper :itemsToShow="2" :vertical="true" style="height: 700px">
           <slide>
             <p class="month">JAN</p>
             <div class="columns is-multiline">
@@ -250,7 +250,7 @@ export default {
   methods:{
     slideTo(i){
       console.log(i)
-      return hooper.slideTo(i)
+      return this.$refs.group1.slideTo(i)
     }
   }
 }

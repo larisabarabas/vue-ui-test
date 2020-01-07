@@ -16,7 +16,7 @@
         :key="i"
         @click.native="$refs.vueperslides2 && $refs.vueperslides2.goToSlide(i - 1)">
           <template v-slot:content>
-            <div class="vueperslide__content-wrapper" :style="'background-color: ' + ['#ff5252', '#42b983'][i % 2]">
+            <div class="vueperslide__content-wrapper" style="font-weight:'bold'">
               <div class="vueperslide__title">{{ i.toString() }}</div>
             </div>
           </template>
@@ -47,6 +47,9 @@ export default {
   name:"About",
   components:{
     VueperSlides, VueperSlide
+  },
+  data: ()=>{
+
   }
 }
 </script>
