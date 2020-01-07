@@ -1,6 +1,6 @@
 <template>
   <div class="home">    
-    <div class="margin-100">
+    <div>
       <h2>Testing the <b>vertical</b> timeline</h2>
         <hooper :itemsToShow="2" :vertical="true" style="height: 700px" :infiniteScroll="false">
           <slide>
