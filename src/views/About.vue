@@ -2,12 +2,14 @@
   <div class="about">
     <h1>This is an about page</h1>
       <vueper-slides
+       class="no-shadow"
         ref="vueperslides2"
         :slide-ratio="1 / 8"
         :dragging-distance="50"
         @slide="$refs.vueperslides1 && $refs.vueperslides1.goToSlide($event.currentSlide.index, { emit: false })"
         :visible-slides="3"
         fixed-height="100px"
+        :arrows="false"
         :bullets="false">
         <vueper-slide
         v-for="i in 8"
@@ -21,9 +23,11 @@
         </vueper-slide>
       </vueper-slides>
     <vueper-slides
+     class="no-shadow"
         ref="vueperslides1"
         @slide="$refs.vueperslides2 && $refs.vueperslides2.goToSlide($event.currentSlide.index, { emit: false })"
         :slide-ratio="1 / 4"
+        :arrows="false"
         :bullets="false">
         <vueper-slide
           v-for="i in 8"
