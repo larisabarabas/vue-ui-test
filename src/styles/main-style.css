@@ -20,3 +20,24 @@ body {
 .mrg-top-50{
     margin-top:50px;
 }
+
+
+li.hooper-slide.is-active.is-current p{
+    background-color: lightcyan;
+    border-radius: 25px;
+    padding: 10px 50px;
+}
+
+/* li.hooper-slide.is-active{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+} */
+.hooper{
+    height:100%;
+    border: 1px solid #efecec;
+}
+
+.hooper:focus{
+    outline: none !important;
+}
