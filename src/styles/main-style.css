@@ -27,6 +27,10 @@ li.hooper-slide.is-active.is-current p{
     padding: 0px 50px;
 }
 
+li.hooper-slide{
+    height: 100%;
+}
+
 /* li.hooper-slide.is-active{
     display: grid;
     justify-content: center;
