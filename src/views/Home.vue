@@ -134,7 +134,7 @@
     
     <div class="margin-100">
       <h2>Testing the <b>verical</b> timeline</h2>
-        <hooper :itemsToShow="1.5" :vertical="true" style="height: 100%">
+        <hooper :itemsToShow="1.5" :vertical="true" style="height: 700px">
           <slide>
             <p class="month">JAN</p>
             <div class="columns is-multiline">
